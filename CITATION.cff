@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following citation."
+title: "A methodological framework for optimizing the energy consumption of deep neural networks: A case study of a cyber threat detector"
+authors:
+  - family-names: "Karamchandani"
+    given-names: "Amit"
+  - family-names: "Mozo"
+    given-names: "Alberto"
+  - family-names: "Gómez-Canaval"
+    given-names: "Sandra"
+  - family-names: "Pastor"
+    given-names: "Antonio"
+year: 2024
+version: 1.0.0
+doi: "10.1007/s00521-024-09588-z"
+url: "https://doi.org/10.1007/s00521-024-09588-z"
+type: article
+abstract: >
+  A methodological framework for optimizing the energy consumption of
+  deep neural networks is proposed. The case study focuses on a cyber
+  threat detector. Published in Neural Computing and Applications.
+journal: "Neural Computing and Applications"
+volume: "36"
+issue: "17"
+pages: "10297-10338"

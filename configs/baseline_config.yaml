@@ -1,0 +1,10 @@
+# Configuration for baseline model training
+
+data_path: "data/example_data"  # Path to the dataset
+validation_split: 0.2          # Fraction of the data to use for validation
+epochs: 10000                     # Number of epochs to train the model
+batch_size: 1024                # Batch size for training
+es_patience: 20                # Patience for early stopping
+es_restore_best_weights: True  # Whether to restore the best weights from early stopping
+model_path: "models/baseline.h5"  # Path to save the trained model
+scaler_path: "models/scaler.pkl" # Path to save the scaler

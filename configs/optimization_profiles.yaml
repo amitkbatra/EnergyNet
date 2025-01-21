@@ -1,0 +1,67 @@
+# Configuration for optimization profiles
+
+profiles:
+  EXP0:
+    post_training_optimizations: null
+    training_aware_optimizations: null
+  EXP1:
+    post_training_optimizations:
+      - full_integer_quantization
+    training_aware_optimizations: null
+  EXP2:
+    post_training_optimizations:
+      - float16_quantization
+    training_aware_optimizations: null
+  EXP3:
+    post_training_optimizations:
+      - float16_int8_quantization
+    training_aware_optimizations: null
+  EXP4:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - pruning
+  EXP5:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - quantization_aware_training
+  EXP6:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - knowledge_distillation
+  EXP7:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - pruning
+      - quantization_aware_training
+  EXP8:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - knowledge_distillation
+      - pruning
+  EXP9:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - knowledge_distillation
+      - quantization_aware_training
+  EXP10:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - knowledge_distillation
+      - pruning
+      - quantization_aware_training
+  EXP11:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - pruning
+      - float16_quantization
+  EXP12:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - knowledge_distillation
+      - float16_quantization
+  EXP13:
+    post_training_optimizations: null
+    training_aware_optimizations:
+      - knowledge_distillation
+      - pruning
+      - float16_quantization
